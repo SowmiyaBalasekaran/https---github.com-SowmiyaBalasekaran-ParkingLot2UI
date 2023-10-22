@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>ParkingLot2MainPage</title>
+    <link rel = "stylesheet", href="parkingLot2MainPage.css">
+</head>
+<body>
+    <div class="fullPage">
+      <div class="scrolling-text-container">
+        <div class="title">SS parkingLot !</div>
+      </div>
+        <div class="form">
+          <h2 style="color: brown;">Entry</h2>
+          <br>
+            <form action="" method="get" class="form-entry">
+                  <label for="ownerName"> Parking user Name :  </label>
+                  <input type="text" name="ownerName" id="ownerName" required> 
+                  <!-- id and userName should always be same -->
+                  <!-- name doesn't have any use rather to group the forms, for example
+                  if we are creatig the gender form then we can have all the input names as gender for using the radio button -->
+                  <!-- in radio button we should have the name as same only then it groups everying as one and allows us to 
+                  select one option -->
+                  <br> <br>
+                  <label for="vehicleOwnerName">Vehicle Owner's Name: </label>
+                  <input type="text" name="vehicleOwnerName" id="vehicleOwnerName" required>
+                  <br> <br>
+                  <label for="vehicleNumber">Vehicle Number: </label>
+                  <input type="text" name="vehicleNumber" id="vehicleNumber" required>
+                  <br> <br>
+                  <label for="vehicleModel">Vehicle Model: </label>
+                  <select name = "vehicleModel" id = "vehicleModel">
+                    <option value = "model1">Two-Wheeler</option>
+                    <option value = "model2">Four-Wheeler</option>
+                  </select>
+                  <br><br>
+                <div class="form-entry-submit">
+                  <input type="submit" value="Enter" />
+                </div>
+
+              </form>
+              <br>
+              <h2 style="color: brown;">Exit</h2>
+              <br>
+            <form action="" method="get" class="form-exit">
+              <label for="vehicleNumber">Vehicle Number: </label>
+              <input type="text" name="vehicleNumber" id="vehicleNumber" required>
+              <br> <br>
+
+              <div class="form-exit-submit">
+                <input type="submit" value="Enter" />
+              </div>
+              </form>
+              <br>
+        <h5>Cost per hour</h5>
+        <br>
+        <h5>Total Hour</h5>
+        <br>
+        <h5>Total Cost</h5>
+        </div>
+    </div>
+</body>
+</html>

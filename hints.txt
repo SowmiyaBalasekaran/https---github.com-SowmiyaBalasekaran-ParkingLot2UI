@@ -1,0 +1,48 @@
+Some sample css :
+
+~ <strong></strong> =>  to make it visible to eyes [make bold]
+
+~ In HTML, a doctype is a document type declaration (DTD). 
+ It's the first line of code in every HTML or XHTML document. The doctype tells the browser what version of HTML the page is written in. 
+ This ensures that the web page is parsed the same way by different web browsers
+
+ ~ <em></em> => italic
+ ~ <small></small> => make it small
+ ~ <ul>
+    <li> Sowmiya </li>
+  </ul>  => unordered list, default is circle with background colour black
+
+
+ ~ Here are some differences between <div> and <span>: 
+  <div>: Accepts the attribute align.
+  <span>: Doesn't automatically place into a new line when set next to another <span>. By default, it only takes up as much space as it has  content even if you set a width and height.
+  <div>: Used to divide sections.
+  <span>: Used to apply a style to an element within another block element, such as <div>.
+  <div>: Uses a substantial portion of the HTML codes.
+  <span>: Used for smaller sections.
+
+ ~ HTML attributes are pieces of markup language that change the behavior or display of an HTML element. They can be used to change the color, size, or functionality of HTML elements. 
+  Attributes are used by including them in an opening HTML tag: 
+  <tag_name attribute_name="value">Content</tag_name>
+  Attributes should always be applied with their name and value pair. The attributes name and values are case sensitive, and it is recommended by W3C that it should be written in lowercase only. You can add multiple attributes in one HTML element, but need to give space between two attributes. 
+  Here are some examples of HTML attributes: 
+  Src: Inserts images into a web page
+  Width: Specifies the width of the element, in pixels
+  Href: Indicates the destination of the hyperlink
+  Title: Defines some extra information about an element
+  Lang: Declares a language for accessibility and for search engines to index content properly
+
+Radio button 
+
+~ <input type = "radio" name = "gender" value = "male" id = "option-1>
+<label for = "option-1> Male </lable>
+<input type = "radio" name = "gender" value = "female" id = "option-1>
+<label for = "option-1> Female </lable>
+<input type = "radio" name = "gender" value = "others" id = "option-1>
+<label for = "option-1> Others </lable>
+
+Text Area 
+
+~ this is used for writing the text for example write your bio, which will be requiring a lot of space so we use this
+~ <textarea name = "bio" id = "bio" cols = "10" rows = "30" placeholder = "about u"></textarea>
+  <label for = "bio"> Your details> </label>

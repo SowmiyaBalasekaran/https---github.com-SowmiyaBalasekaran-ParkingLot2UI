@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>ParkingLot2MainPage</title>
+    <link rel = "stylesheet", href="parkingLot2MainPage.css">
+</head>
+<body>
+    <div class="fullPage">
+      <div class="scrolling-text-container">
+        <div class="title">SS parkingLot !</div>
+      </div>
+        <div class="form">
+          <h2 style="color: brown;">User Entry</h2>
+          <br>
+            <form action="" method="get" class="form-entry">
+                  <label for="userName"> Parking user Name :  </label>
+                  <input type="text" name="userName" id="userName" required> 
+                  <br> <br>
+                  <label for="totalSlot">Total Slot: </label>
+                  <input type="number" name="totalSlot" id="totalSlot" required>
+                  <br> <br>
+                  <label for="vehicleModel">Vehicle Model: </label>
+                  <select name = "vehicleModel" id = "vehicleModel">
+                    <option value = "model1">Two-Wheeler</option>
+                    <option value = "model2">Four-Wheeler</option>
+                  </select>
+                  <br> <br>
+                  <label for="costPerHour">Cost per Hour: </label>
+                  <input type="number" name="costPerHour" id="costPerHour" required>
+                  <br><br>
+                <div class="form-entry-submit">
+                  <input type="submit" value="Enter" />
+                </div>
+                <br>
+                <div class="slotEntry">
+                    <h2 style="color: brown;">Upload Excel File</h2>
+                    <br>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                <label for="excelFile">Select Excel File:</label>
+                <input type="file" id="excelFile" name="excelFile" accept=".xls, .xlsx" required>
+                <br><br>
+                <button type="submit">Upload</button>
+                 </form>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>

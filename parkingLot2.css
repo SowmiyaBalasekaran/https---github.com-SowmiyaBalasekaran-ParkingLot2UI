@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.division {
+    display: flex;
+  flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  align-items: center;
+    /* align-items: center; */
+    background-color: rgb(94, 34, 233);
+    height: 150px;
+    width: 100%;
+}
+
+.header .logo img{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  max-width: 100px;
+    max-height: 100px;
+  text-decoration: none;
+  /* margin-left: 20%; */
+  border-radius: 50%; 
+}
+
+.header .title {
+    /* margin-left: 35%; */
+    font-size: 90px;
+    width: 50%;
+    /* margin-bottom: 1%; */
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  font-family: 'Sriracha', cursive;
+  color: #000;
+    
+}
+
+.header .register{
+    /* margin-left: 25%; */
+    background-color: #b9309e; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding around text */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove underline from text */
+    /* display: inline-block;  */
+    /* Display as inline-block element */
+    font-size: 16px; /* Font size */
+    margin: 10p0x; /* Margin around the button */
+    cursor: pointer; /* Cursor style on hover */
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    border-radius: 8px; /* Border radius for rounded corners */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('https://thumbs.dreamstime.com/b/car-parking-lot-automated-car-parking-system-white-multi-story-32976167.jpg');
+    height: 500px;
+    width: 100%;
+}
+
+.main .form {
+    margin-left: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 33%;
+}
+/*  
+.main .emptySpace {
+    margin-left: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 33%;
+} */
+
+.main.form.form-example {
+    display: table;
+    height: 500px;
+    width: 33%;
+  }
+  
+  .main.form.div.form-example {
+    display: table-row;
+    height: 500px;
+    width: 33%;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 30px;
+    color: #0af549;
+    padding-right: 10px;
+  }
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  /* justify-content: center; */
+    background-color: rgb(230, 95, 151);
+    height: 150px;
+    width: 100%;
+}
+
+.footer .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 33%;
+}
+
+.footer .about .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75px;
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+
+.footer .about .value{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100px;
+    width: 33%;
+}
+
+.footer .about .value1{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 15px; */
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+
+.footer .about .value2{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 15px; */
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+
+.footer .address {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 33%;
+}
+
+.footer .address .heading{
+    display: flex;
+    /* align-items: ; */
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+    /* height: 15px; */
+
+    width: 33%;
+}
+
+
+.footer .address .value{
+    display: flex;
+    /* align-items :center ; */
+    /* justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+    /* height: 15px; */
+
+    /* width: 33%; */
+}
+
+.footer .contactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 33%;
+}
+
+.footer .contactUs .heading{
+    display: flex;
+    /* align-items: ; */
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+    /* height: 15px; */
+
+    width: 33%;
+}
+
+
+.footer .contactUs .value{
+    display: flex;
+    /* align-items :center ; */
+    /* justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+    /* height: 15px; */
+
+    /* width: 33%; */
+}
+
+
+

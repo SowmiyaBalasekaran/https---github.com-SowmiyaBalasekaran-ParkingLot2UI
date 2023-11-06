@@ -1,0 +1,13 @@
+Static => default and it goes with normal positioning of the page. this is basically used to rest if another positions were given.
+
+Relative
+
+
+Fixed => even if we scroll the page the postion will be fixed, like we have heading, even when we scroll the page the header bar will be sticked
+
+
+Absolute
+
+
+
+Sticky => static and fixed

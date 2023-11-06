@@ -46,3 +46,89 @@ Text Area
 ~ this is used for writing the text for example write your bio, which will be requiring a lot of space so we use this
 ~ <textarea name = "bio" id = "bio" cols = "10" rows = "30" placeholder = "about u"></textarea>
   <label for = "bio"> Your details> </label>
+
+Class 
+
+Program : 
+<---Html--->
+<p> Sowmiya is now becoming fat </p>
+<p class = "test1"> Sowmiya in test class </p>
+<div class = "test2"> Sowmiya is in test class2 </div>
+<div id = "content"> Sowmiya is in id class </div>
+<div class = "test3 test2"> Sowmiya is in multi class </div>  // this will have features of both test3 and test2
+<---css--->
+p {                         //Here p is called selector
+    color : red;            // color : red is called declaratives
+}                           // color, red are key value pairs
+
+. test2 {
+    color : red;
+}
+
+#content {
+    color : red;
+}
+
+Descentent Selectors => 
+Parents goes on left and children on right
+ex., 
+case 1 : if we have p tag inside div tag then,
+div p{
+    color : red;
+}
+case 2 : if we have test2 class inside div class then
+div .test2 {
+    color : red;
+}
+
+note : space is important between parent and descentent
+
+Class selection based on attibutes : 
+ex., <div class = "test4">
+
+here class is attribute.
+
+If we want to differentiate based on tags having attributes then
+div[class] {
+    color : red;
+}
+
+If we want to differentiate based on the value of the attribute then,
+div[class="test4"]{
+    color : red;
+}
+
+or
+
+If we want to style all the values having some certain text then,
+div[*="test"] {
+    color : red;
+}
+
+If we have $ instead of * then it mean ends with
+
+Preference => moreSpecification > which is present in the last 
+
+~Semantic tag
+    Used to making the code more descriptive
+    eg., <main> => unique for the page, used for displaying the main content of the web page
+         <section> => defines certain section of the webPage eg., contact info, blog list
+         <article> => used to show this is a blog post or news post
+         <aside> => which are not important for article
+         <header> , <footer>
+
+~ We can upload the file in the browser and after making the changes presss Contrl + S, the file will get saved
+~ We can make div as inline element 
+div {
+    display : inline;
+}
+
+~ Margin will not be present at top and bottom for inline elements
+
+~ If we want make margin top and bottom then 
+span {
+    display : inline-block;
+}
+
+
+
